@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1>Registration Form</h1>
+      <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"
+      placeholder="Enter your name">
+      <br><br>
+      
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"
+      placeholder="Enter your email"
+      <br><br><br>
+      
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password"
+      placeholder="Enter your email"
+      <br><br>
+      
+      <label>Gender:</label><br>
+      
+       <input type="radio" id="male" name="gender"
+      value="male"
+      <label for="male">Male</label><br>
+       <input type="radio" id="female" name="gender"
+      value="female"
+      <label for="female">Female</label><br><br>
+      <label>Birthday:</label>
+      <input type="date" id="birthday" 
+      name="birthday"><br><br>
+      
+      <input type="submit" value="Register"><br>
+      
+      <h4>Hobbies</h4>
+     <input type="checkbox" id="reading" name="hobby"
+      value="reading"
+      <label for="reading">Reading</label><br>
+      <input type="checkbox" id="sports" name="hobby"
+      value="sports"
+      <label for="sports">Sports</label><br>
+      <input type="checkbox" id="music" name="hobby"
+      value="music"
+      <label for="music">Music</label><br>
+      </form> 
+  </body>
+</html>
